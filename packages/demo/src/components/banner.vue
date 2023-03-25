@@ -12,7 +12,7 @@ import {
 } from '@ant-design/icons-vue';
 import router from '@/router';
 
-const repo = 'https://github.com/merfais/kaka/packages/demo';
+const repo = 'https://github.com/merfais/kaka/tree/main/packages/demo';
 
 const filePath = computed(() => {
   const path = get(unref(router.currentRoute), 'meta.filePath');
