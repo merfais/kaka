@@ -30,7 +30,7 @@ function genRoutesConf(rawConfig, pName = '') {
 }
 
 const router = createRouter({
-  history: createWebHistory('/'),
+  history: createWebHistory('/kaka'),
   routes: genRoutesConf(config),
 });
 
