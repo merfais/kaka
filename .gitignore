@@ -9,10 +9,13 @@ lerna-debug.log*
 
 node_modules
 .DS_Store
+
 dist
 dist.tgz
 dist.zip
 dist-ssr
+!packages/demo/dist
+
 coverage
 docs/.vuepress/.cache/
 docs/.vuepress/.temp/
