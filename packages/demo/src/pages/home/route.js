@@ -3,7 +3,7 @@ const home = {
   path: '/',
   component: () => import(/* webpackChunkName: "home" */'./index'),
   meta: {
-    filePath: '@FILE_PATH@',
+    filePath: 'pages/home/index.vue',
   },
 };
 
