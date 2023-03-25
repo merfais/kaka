@@ -1,0 +1,22 @@
+.ant-cascader-menu {
+  height: 300px;
+}
+
+.ant-checkbox-wrapper + .ant-checkbox-wrapper {
+  margin: 0 8px 0 0;
+}
+
+.ant-message {
+  top: 60px;
+}
+
+.ant-tooltip {
+  .ant-tooltip-arrow-content {
+    background: #fff;
+  }
+  .ant-tooltip-inner {
+    background: #fff;
+    color: unset;
+  }
+}
+

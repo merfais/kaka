@@ -1,0 +1,24 @@
+{
+  "name": "vue3-t",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .vue,.js,.jsx,.cjs,.mjs --no-error-on-unmatched-pattern --max-warnings=0 ./",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "dependencies": {
+    "pinia": "^2.0.32",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vitejs/plugin-vue-jsx": "^3.0.0",
+    "eslint": "^8.34.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "vite": "^4.1.4"
+  }
+}
