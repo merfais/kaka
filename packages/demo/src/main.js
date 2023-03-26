@@ -1,5 +1,6 @@
 import { createApp, markRaw } from 'vue';
 import { createPinia } from 'pinia';
+import 'r-comps/src/assets/base.css';
 
 import App from './app';
 import router from './router';

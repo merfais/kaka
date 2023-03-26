@@ -26,14 +26,14 @@ const filePath = computed(() => {
 
 </script>
 <template>
-  <section class='banner-section'>
-    <div class='home'
+  <section class='banner-section align-center p-10-20'>
+    <div class='home p-10 c-pointer'
       @click="onClickHome"
       >
       <HomeOutlined />
     </div>
-    <div class='source-code'>
-      <span>源码地址:</span>
+    <div class='pl-20'>
+      <span>源码地址：</span>
       <a class='code-link'
         :href='filePath'
         target="_blank"
@@ -42,7 +42,7 @@ const filePath = computed(() => {
         {{filePath}}
       </a>
     </div>
-    <div class='space' />
+    <div class='flex-grow' />
     <a class='link'
       :href='repo'
       target="_blank"
@@ -56,37 +56,30 @@ const filePath = computed(() => {
 <style scoped>
 .banner-section {
   height: 55px;
-  display: flex;
-  align-items: center;
   border-bottom: 1px solid #ccc;
   box-shadow: 0px 3px 4px rgba(0, 0, 0, .1);
   background: rgba(200, 200, 200, 0.3);
-  padding: 10px 20px;
   margin-bottom: 9px;
+
   .home {
-    padding: 10px;
     font-size: 24px;
-    cursor: pointer;
+
     &:hover {
       color: #1890ff;
     }
   }
-  .space {
-    flex-grow: 1;
+
+  .code-link {
+    border-bottom: 1px solid #1890ff;
   }
-  .source-code {
-    padding-left: 20px;
-    font-size: 14px;
-    .code-link {
-      border-bottom: 1px solid #1890ff;
-    }
-  }
+
   .link {
     font-size: 18px;
     font-style: italic;
     border-bottom: 1px solid #1890ff;
     text-shadow: -1px -1px #ccc, 0.1em 0.1em 0.5em #aaa;
   }
+
   .github-icon {
     font-size: 30px;
     color: #555;

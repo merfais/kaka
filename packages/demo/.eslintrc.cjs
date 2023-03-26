@@ -8,6 +8,9 @@ const config = {
   ],
   parserOptions: {
     ecmaVersion: 'latest',
+    ecmaFeatures: {
+      jsx: true,
+    },
   },
   rules: {
     // 修改的规则
@@ -32,6 +35,7 @@ const config = {
     'import/no-unresolved': 0,
     'import/prefer-default-export': 0,
     'import/no-extraneous-dependencies': 0,
+    'import/no-named-as-default': 0,
 
     // 关闭airbnb规则
     'arrow-parens': 0,

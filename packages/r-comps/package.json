@@ -1,0 +1,31 @@
+{
+  "name": "r-comps",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "src/components/index.js",
+  "scripts": {
+    "lint": "eslint --ext .vue,.js,.jsx,.cjs,.mjs --no-error-on-unmatched-pattern --max-warnings=0 ./",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21",
+    "monaco-editor": "^0.36.1",
+    "sortablejs": "^1.15.0",
+    "vue-json-pretty": "^2.2.4"
+  },
+  "devDependencies": {
+    "@ant-design/icons-vue": "^6.1.0",
+    "@vueuse/core": "^9.13.0",
+    "ant-design-vue": "^3.2.16",
+    "eslint": "^8.34.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "vue": "^3.2.47"
+  },
+  "peerDependencies": {
+    "@ant-design/icons-vue": "^6.1.0",
+    "@vueuse/core": "^9.13.0",
+    "ant-design-vue": "^3.2.16",
+    "vue": "^3.2.47"
+  }
+}
